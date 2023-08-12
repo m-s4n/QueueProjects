@@ -3,20 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Watermark.Web", "Watermark.Web\Watermark.Web.csproj", "{3ED3BC56-2A09-4B09-9510-0E88EBC51A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Watermark.Web", "Watermark.Web\Watermark.Web.csproj", "{3ED3BC56-2A09-4B09-9510-0E88EBC51A81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelCreator.Web", "ExcelCreator.Web\ExcelCreator.Web.csproj", "{02880ADE-D831-4195-A808-11666D360019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{C20DA3E9-BC46-488D-B75B-676564C13A8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCreatorWorkerService", "FileCreatorWorkerService\FileCreatorWorkerService.csproj", "{00D4464D-3355-409E-8CFC-B1AE6DA76F63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3ED3BC56-2A09-4B09-9510-0E88EBC51A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3ED3BC56-2A09-4B09-9510-0E88EBC51A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ED3BC56-2A09-4B09-9510-0E88EBC51A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ED3BC56-2A09-4B09-9510-0E88EBC51A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02880ADE-D831-4195-A808-11666D360019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02880ADE-D831-4195-A808-11666D360019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02880ADE-D831-4195-A808-11666D360019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02880ADE-D831-4195-A808-11666D360019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20DA3E9-BC46-488D-B75B-676564C13A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20DA3E9-BC46-488D-B75B-676564C13A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20DA3E9-BC46-488D-B75B-676564C13A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20DA3E9-BC46-488D-B75B-676564C13A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D4464D-3355-409E-8CFC-B1AE6DA76F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D4464D-3355-409E-8CFC-B1AE6DA76F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D4464D-3355-409E-8CFC-B1AE6DA76F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D4464D-3355-409E-8CFC-B1AE6DA76F63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68CE2BF2-6EE3-442E-AA02-9BCD543B8BF7}
 	EndGlobalSection
 EndGlobal
